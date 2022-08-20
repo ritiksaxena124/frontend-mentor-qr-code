@@ -1,0 +1,47 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 1px 3px 50px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-container > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card-container > h2 {
+  font-weight: 700;
+}
+
+.card-container > p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+@media screen and (min-width: 376px) {
+  .card-container {
+    width: 300px;
+  }
+
+  .card-container > h2 {
+    font-size: 23px;
+  }
+  .card-container > p {
+    font-size: 15px;
+  }
+}
